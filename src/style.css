@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* header css */
+.header-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    margin-top: 1rem;
+}
+
+.form-div{
+    width: 70%;
+    /* padding: 1rem 2rem; */
+
+}
+
+.header-form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid;
+    border-radius: 35px;
+    height: 38px;
+}
+
+.input-div{
+border-right: 1px solid;
+}
+
+.input-div input{
+    border: none;
+    width: 220px;
+    padding-left: .5rem;
+}
+
+.Btn-div button{
+    border-radius: 50%;
+    background-color: gray;
+    border: 1px solid;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.Icon-div{
+    border: 1px solid;
+    border-radius: 35px;
+    /* width: 10%; */
+    height: 38px;
+    padding: 0 10px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Navbar css */
+.main{
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Section */
+.section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left{
+    width: 30%;
+}
+
+.content{
+    position: relative;
+}
+
+.carousel-content{
+    position: absolute;
+    bottom: 10%;
+    left: 8%;
+    color: #fff;
+}
+
+.carousel-content p{
+    background-color: rgb(111, 111, 5);
+    padding: .5rem .5rem;
+    border-radius: 10px;
+}
+
+.right{
+    width: 65%;
+}
+
+
+.image-content{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.colum{
+    margin: 10px;
+    width: 100%;
+    height: 70%;
+    position: relative;
+}
+.colum-img{
+    width: 100%;
+    height: 100%;
+}
+.colum-img img{
+    width: 100%;    
+    height: 100%;
+    border-radius: 10px;
+}
+
+.colum-content{
+    width: 80%;
+    height: 45%;
+    border-radius: 10px;
+    background-color: #fff;
+    position: absolute;
+    text-align: left;
+    padding-left: 1rem;
+    bottom: -40px;
+    left: 20px;
+    box-shadow: 0 2px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+.text-color{
+    color: darkgoldenrod;
+}
+
+.plan-content{
+    width: 70%;
+}
+
+.plan-content h2{
+    font-size: 3 rem;
+}
+.plan-content p{
+    font-size: 20px;
+    }
