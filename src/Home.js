@@ -2,8 +2,9 @@ import React from 'react';
 import Header from './Header';
 import Navbar from './Navbar';
 import Section from './Section';
-import Card from './Card';
+import DestinationCards from './DestinationCards';
 import BookSection from './BookSection';
+import Category from './Category';
 
 
 function Home() {
@@ -12,8 +13,9 @@ function Home() {
       <Header />
       <Navbar />
       <Section/>
-      <Card/>
+      <DestinationCards/>
       <BookSection/>
+      <Category/>
 
     </>
   )

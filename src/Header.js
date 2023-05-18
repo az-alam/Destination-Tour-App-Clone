@@ -1,4 +1,5 @@
 import React from 'react';
+import './header.css';
 import logo from "./images/logo.png";
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';

@@ -1,4 +1,5 @@
 import React from 'react';
+import './section.css';
 import Tajmahal from './images/taj-mahal.jpg';
 import Kailash from './images/adi-kailsah.jpg';
 import Frozenriver from './images/Chadar-Frozen-River.jpg';
@@ -21,22 +22,22 @@ function Section() {
             <div class="carousel-item active content">
               <img src={Tajmahal} class="d-block w-100" alt="Taj Mahal" />
               <div className='carousel-content'>
-                <h2>Taj Mahal</h2>
+                <h2>Golden Triangle Tour</h2>
                 <p>06 Nights- 07 Days</p>
               </div>
             </div>
             <div class="carousel-item">
               <img src={Kailash} class="d-block w-100" alt="Kailash Parwat" />
               <div className='carousel-content'>
-                <h2>Adi Kailash</h2>
+                <h2>Adi Kailash Trek</h2>
                 <p>06 Nights- 07 Days</p>
               </div>
             </div>
             <div class="carousel-item">
               <img src={Frozenriver} class="d-block w-100" alt="Ice Mountain" />
               <div className='carousel-content'>
-                <h2>Frozen</h2>
-                <p>06 Nights- 07 Days</p>
+                <h2>Frozen River Trek</h2>
+                <p>12 Nights- 13 Days</p>
               </div>
             </div>
           </div>
@@ -52,7 +53,7 @@ function Section() {
       </div>
       <div className='right'>
         <div className='plan-content'>
-          <h2>Let us plan you a
+          <h2>Let us plan you a <br/>
             perfect <span className='text-color'>India Holiday</span></h2>
             <p>Personalised, well-crafted tour packages for best experiences</p>
         </div>

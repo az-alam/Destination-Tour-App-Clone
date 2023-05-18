@@ -1,10 +1,11 @@
-import React from 'react'
+import React from 'react';
+import './navbar.css';
 
 function Navbar() {
     return (
         <>
             <nav className="navbar navbar-expand-lg main">
-                <div className="container">
+                <div>
                     <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div className="navbar-nav">
                             <a className="nav-link" aria-current="page" href="/">Destinations</a>
@@ -14,6 +15,7 @@ function Navbar() {
                             <a className="nav-link" href="/">Forex</a>
                             <a className="nav-link" href="/">Inbound</a>
                             <a className="nav-link" href="/">Contact Us</a>
+                        
                         </div>
                     </div>
                 </div>
