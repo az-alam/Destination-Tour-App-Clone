@@ -5,6 +5,7 @@ import Section from './Section';
 import DestinationCards from './DestinationCards';
 import BookSection from './BookSection';
 import Category from './Category';
+import TourPakages from './TourPakages';
 
 
 function Home() {
@@ -16,6 +17,7 @@ function Home() {
       <DestinationCards/>
       <BookSection/>
       <Category/>
+      <TourPakages />
 
     </>
   )
